@@ -1,6 +1,6 @@
 # MovieReviewsSite
 
-sup james!
+sup yujin!
 
 IMPORTANT WORK IN YOUR OWN BRANCH
 alexander; movies
