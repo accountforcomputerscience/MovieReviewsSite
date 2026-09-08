@@ -1,6 +1,13 @@
 # MovieReviewsSite
 
 
+IMPORTANT WORK IN YOUR OWN BRANCH
+alexander; movies
+james; layout
+yujin; reviews
+
+THIS IS SO WE DO NOT FUCK UP BIG TIME AND ERASE EACH OTHERS CODE.
+
 --
 for james:
     make an aesthetic + color scheme if possible
@@ -22,3 +29,7 @@ then we differentiate in the sense that
 
 this should last us for a week or two.
 
+
+
+other notes-
+yeah so i lowk dunno how we'll do this in school or what like if we're using vs code or code.org or whatever. but if it's code.org it should be easy enough. + the github repo is public anyways so you can just rip code off from there :smile:
