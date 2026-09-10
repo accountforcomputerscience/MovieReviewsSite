@@ -1,5 +1,6 @@
 # MovieReviewsSite
 
+sup yujin!
 
 IMPORTANT WORK IN YOUR OWN BRANCH
 alexander; movies
@@ -18,6 +19,8 @@ for yujin
 
 for alexander
     design movie cards
+
+    
 --
 
 james will have a lot of designing to do so he'll probably be doing the same stuff
