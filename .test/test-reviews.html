@@ -1,14 +1,75 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Test Movies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/reviews.css">
+    <style>
+       .container {
+            max-width: 923px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 32px 36px;
+            box-shadow: 0 30px 100px rgba(0, 0, 0, 0.08);
+         }
+
+        .header h1 {
+            padding-top: 0px;
+            padding-bottom:10px;
+            font-size: 28px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header h1 span {
+            font-size: 25px;
+            color: gray;
+            font-weight: normal;
+        }
+
+        .sort-options {
+            display: flex;
+            gap: 10px;
+        }
+
+        .sort-options button {
+            padding: 6px 16px;
+            border: 1px solid;
+            border-radius: 12px;
+            background:white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: grey;
+        }
+
+        .sort-options button:hover {
+            background:lightgray;
+        }
+
+        .sort-options button.active {
+            background: blue;
+            color: white;
+            border-color: blue;
+        }
+    </style>
 </head>
 
 <body>
-
-<h1>Movie Test</h1>
-
+    
+<h1>Reviews Test</h1>
+<div class="container">
+<div class="header">
+     <h1> 💬Comment <span id="Display-comment">0</span></h1>
+        <div class="sort-options">
+            <button class="active" data-sort="newest">🕐Newest</button>
+            <button data-sort="hottest">🔥Hottest</button>
+            <button data-sort="highest">⭐Highest</button>
+        </div>
+</div>
 <section id="reviews">
 
     <h2>Reviews</h2>
