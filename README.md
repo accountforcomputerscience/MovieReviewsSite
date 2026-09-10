@@ -8,7 +8,7 @@ yujin; reviews
 
 THIS IS SO WE DO NOT FUCK UP BIG TIME AND ERASE EACH OTHERS CODE.
 
---
+
 for james:
     make an aesthetic + color scheme if possible
     design footer and navbar and all that jazz
@@ -18,6 +18,7 @@ for yujin
 
 for alexander
     design movie cards
+    
 --
 
 james will have a lot of designing to do so he'll probably be doing the same stuff
