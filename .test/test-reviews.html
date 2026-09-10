@@ -4,96 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test</title>
-    <link rel="stylesheet" href="css/reviews.css">
-    <style>
-       .container {
-            max-width: 923px;
-            margin: 0 auto;
-            background: #ffffff;
-            border-radius: 16px;
-            padding: 32px 36px;
-            box-shadow: 0 30px 100px rgba(0, 0, 0, 0.08);
-         }
-
-        .header h1 {
-            padding-top: 0px;
-            padding-bottom:10px;
-            font-size: 28px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .header h1 span {
-            font-size: 25px;
-            color: gray;
-            font-weight: normal;
-        }
-
-        .sort-options {
-            display: flex;
-            gap: 10px;
-        }
-
-        .sort-options button {
-            padding: 6px 16px;
-            border: 1px solid;
-            border-radius: 12px;
-            background:white;
-            font-size: 14px;
-            cursor: pointer;
-            transition: all 0.2s;
-            color: grey;
-        }
-
-        .sort-options button:hover {
-            background:lightgray;
-        }
-
-        .sort-options button.active {
-            background: blue;
-            color: white;
-            border-color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="../css/reviews.css">
 </head>
 
 <body>
     
 <h1>Reviews Test</h1>
 <div class="container">
-<div class="header">
+<div class="headeryu">
      <h1> 💬Comment <span id="Display-comment">0</span></h1>
-        <div class="sort-options">
-            <button class="active" data-sort="newest">🕐Newest</button>
-            <button data-sort="hottest">🔥Hottest</button>
-            <button data-sort="highest">⭐Highest</button>
-        </div>
-</div>
-<section id="reviews">
-
-    <h2>Reviews</h2>
-
-    <div class="review-card">
-        
-        <h3>placeholder</h3>
-
-        <p class="review-rating">
-            placeholder
-        </p>
-
-        <p class="review-text">
-            placeholder
-        </p>
-        
-
-
+        <div class="sort-options"> </div>
     </div>
-</section>
 
+    <details class="write-details">
+      <summary>
+        <span class="write-btn">+ Write comment</span>
+      </summary>
+       <form class="write-form">
+        <div class="form-row">
+          <div class="form-field">
+            <label for="nickname">Name</label>
+            <input type="text" id="nickname" placeholder="Your nickname" maxlength="20">
+          </div>
+          <div class="form-field">
+            <label for="source">Source/Media</label>
+            <input type="text" id="source" placeholder="Location...Country...City..." maxlength="30">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="score">Score</label>
+            <select id="score">
+              <option value="A+">A+</option>
+              <option value="A" >A</option>
+              <option value="A-">A-</option>
+              <option value="B+">B+</option>
+              <option value="B">B</option>
+              <option value="B-">B-</option>
+              <option value="C+">C+</option>
+              <option value="C">C</option>
+              <option value="C-">C-</option>
+              <option value="D+">D+</option>
+              <option value="D" >D</option>
+              <option value="D-">D-</option>
+              <option value="F">F</option>
+              <option value="none" selected>None</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label for="avatarColor">Avatarcolor</label>
+            <select id="avatarColor">
+              <option value="gray">Grey</option>
+              <option value="red">Red</option>
+              <option value="blue" selected>Blue</option>
+              <option value="green">Green</option>
+              <option value="purple">Purple</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <label for="reviewText">Content</label>
+            <textarea id="reviewText" placeholder="Write your comment..." maxlength="300"></textarea>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button type="reset" class="btn-cancel">Cancel</button>
+          <button type="submit" class="btn-submit">Post a comment</button>
+        </div>
+      </form>
+    </details>
+
+   
+  </div>
+</div>
 
 <script src="../js/movies.js"></script>
 
 </body>
-
 </html>
