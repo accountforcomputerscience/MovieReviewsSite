@@ -1,5 +1,32 @@
 #movie-list {
 
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+
 }
 
+.movie-card {
 
+    display: inline-flex;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    background: rgba(129, 129, 129, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+
+    text-decoration: none;
+    color:white;
+
+}
+
+.movie-card img{
+    height: 246px;
+    width: 164px;
+    display: block;
+}
+
+.movie-info {
+    padding:10px;
+}
