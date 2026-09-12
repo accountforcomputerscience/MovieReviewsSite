@@ -1,11 +1,18 @@
 #movie-list {
 
     display: flex;
+    gap: 30px;
+}
+
+#movie-container {
+    display: flex;
     gap: 8px;
     overflow-x: auto;
+    scroll-behavior:smooth;
     margin: 40px 0 0 0;
-
+    scrollbar-width: none;
 }
+
 
 .movie-card {
 
@@ -21,7 +28,14 @@
     text-decoration: none;
     color:white;
 
+    transition: 0.2s;
+
 }
+
+.movie-card:hover{
+    filter:brightness(70%);
+}
+
 
 .movie-card img{
     height: 307.5px;
